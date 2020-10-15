@@ -1,0 +1,94 @@
+{
+  "offers" : {
+    "qHid9jQ2qkwnewendejdwojeowjeoj" : {
+      "offerDescription" : "Western",
+      "id" : "qHid9jQ2qkwnewendejdwojeowjeoj",
+      "locationLat" : 22.4237367,
+      "imagelogoURL" : "https://static8.orstatic.com/userphoto/doorphoto/Q/KYR/04536Z0CD1E84FF10B1D03px.jpg",
+      "locationLong" : 114.2019832,
+      "meals" : [ {
+        "description" : "Milk Tea with Bubbles",
+        "id" : "0",
+        "imageURL" : "https://static.toiimg.com/photo/68283907.cms",
+        "name" : "Milk Tea",
+        "price" : 10,
+        "stock" : "yes"
+      } ],
+      "offerName" : "Lee Woo Sing",
+      "offerPoints" : "2,000"
+    },
+    "qHid9jQW8QMraVuC4o0DX4snexm2" : {
+      "offerDescription" : "Chinese",
+      "id" : "qHid9jQW8QMraVuC4o0DX4snexm2",
+      "locationLat" : 28.469,
+      "imagelogoURL" : "https://www.cpr.cuhk.edu.hk/images/common/Campus%20Photo/CW%20Chu%20Campus/2_College%20Full%20View.jpg",
+      "locationLong" : 114.2063931,
+      "meals" : [ {
+        "description" : "Ingredients: Pepper salt, egg, sweet soy sauce, pork chop, scallions, soybean oil, plain rice",
+        "id" : "0",
+        "imageURL" : "https://static.toiimg.com/photo/68283907.cms",
+        "name" : "Spiced Salt Pork Chop with Fried Egg And Rice",
+        "price" : 31,
+        "stock" : "yes"
+      }, {
+        "description" : "Ingredients: mirin, onion, sliced beef, Japanese soy sauce, plain rice",
+        "id" : "1",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Teriyaki Beef Japanese Style with Rice",
+        "price" : 37,
+        "stock" : "yes"
+      }, {
+        "description" : "Ingredients: Eel, eel sauce, red pickled ginger, yellow pickled radish, scallions, plain rice",
+        "id" : "2",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Japanese Grilled Eel with Rice ",
+        "price" : 38,
+        "stock" : "yes"
+      }, {
+        "description" : "Ingredients: Coriander, scallions, sugar, soy sauce, peanut butter, soybean oil, vinegar, chilli pepper, garlic, onion, cucumber, yellow noodles",
+        "id" : "3",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Cold Noodles and Shredded Chicken with Spicy Sauce (can choose not spicy) ",
+        "price" : 36,
+        "stock" : "yes"
+      }, {
+        "description" : "Ingredients: Potato, wasabi, salad dressing, onion, garlic, basil, smoked salmon.",
+        "id" : "4",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Smoked Salmon with German Potato Salad ",
+        "price" : 35,
+        "stock" : "yes"
+      }, {
+        "description" : "Ingredients: Salad green, Balsamic Vinaigrette or Caesar Sauce",
+        "id" : "5",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Green Salad (Balsamic Vinaigrette or Caesar Sauce) ",
+        "price" : 16,
+        "stock" : "yes"
+      }, {
+        "description" : "Milk Coffee with Bubbles",
+        "id" : "6",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Teriyaki Beef Japanese Style with Rice",
+        "price" : 37,
+        "stock" : "yes"
+      }, {
+        "description" : "Milk Coffee with Bubbles",
+        "id" : "7",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Teriyaki Beef Japanese Style with Rice",
+        "price" : 37,
+        "stock" : "yes"
+      }, {
+        "description" : "Milk Coffee with Bubbles",
+        "id" : "8",
+        "imageURL" : "https://cdn.notonthehighstreet.com/fs/3f/53/1fc8-a2bd-4d7a-9e83-89f79a96244c/original_bubble-tea-making-kit.jpg",
+        "name" : "Teriyaki Beef Japanese Style with Rice",
+        "price" : 37,
+        "stock" : "yes"
+      } ],
+      "offerName" : "CW Chu Canteen",
+      "offerPoints" : "4,000"
+    }
+  }
+}
