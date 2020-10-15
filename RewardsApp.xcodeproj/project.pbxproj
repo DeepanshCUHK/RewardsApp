@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24B8F6C2537F7580067C769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B8F6B2537F7580067C769 /* AppDelegate.swift */; };
+		B24B8F6E2537F7580067C769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B8F6D2537F7580067C769 /* SceneDelegate.swift */; };
+		B24B8F702537F7580067C769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B8F6F2537F7580067C769 /* ViewController.swift */; };
+		B24B8F732537F7580067C769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24B8F712537F7580067C769 /* Main.storyboard */; };
+		B24B8F752537F75A0067C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24B8F742537F75A0067C769 /* Assets.xcassets */; };
+		B24B8F782537F75A0067C769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24B8F762537F75A0067C769 /* LaunchScreen.storyboard */; };
+		B24B8F832537F75B0067C769 /* RewardsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B8F822537F75B0067C769 /* RewardsAppTests.swift */; };
+		B24B8F8E2537F75B0067C769 /* RewardsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B8F8D2537F75B0067C769 /* RewardsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24B8F7F2537F75B0067C769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24B8F602537F7580067C769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24B8F672537F7580067C769;
+			remoteInfo = RewardsApp;
+		};
+		B24B8F8A2537F75B0067C769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24B8F602537F7580067C769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24B8F672537F7580067C769;
+			remoteInfo = RewardsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B24B8F682537F7580067C769 /* RewardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B8F6B2537F7580067C769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B24B8F6D2537F7580067C769 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B24B8F6F2537F7580067C769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B24B8F722537F7580067C769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24B8F742537F75A0067C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24B8F772537F75A0067C769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24B8F792537F75A0067C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24B8F7E2537F75B0067C769 /* RewardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B8F822537F75B0067C769 /* RewardsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsAppTests.swift; sourceTree = "<group>"; };
+		B24B8F842537F75B0067C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24B8F892537F75B0067C769 /* RewardsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B8F8D2537F75B0067C769 /* RewardsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsAppUITests.swift; sourceTree = "<group>"; };
+		B24B8F8F2537F75B0067C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24B8F652537F7580067C769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F7B2537F75B0067C769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F862537F75B0067C769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B24B8F5F2537F7580067C769 = {
+			isa = PBXGroup;
+			children = (
+				B24B8F6A2537F7580067C769 /* RewardsApp */,
+				B24B8F812537F75B0067C769 /* RewardsAppTests */,
+				B24B8F8C2537F75B0067C769 /* RewardsAppUITests */,
+				B24B8F692537F7580067C769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B24B8F692537F7580067C769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24B8F682537F7580067C769 /* RewardsApp.app */,
+				B24B8F7E2537F75B0067C769 /* RewardsAppTests.xctest */,
+				B24B8F892537F75B0067C769 /* RewardsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24B8F6A2537F7580067C769 /* RewardsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B24B8F6B2537F7580067C769 /* AppDelegate.swift */,
+				B24B8F6D2537F7580067C769 /* SceneDelegate.swift */,
+				B24B8F6F2537F7580067C769 /* ViewController.swift */,
+				B24B8F712537F7580067C769 /* Main.storyboard */,
+				B24B8F742537F75A0067C769 /* Assets.xcassets */,
+				B24B8F762537F75A0067C769 /* LaunchScreen.storyboard */,
+				B24B8F792537F75A0067C769 /* Info.plist */,
+			);
+			path = RewardsApp;
+			sourceTree = "<group>";
+		};
+		B24B8F812537F75B0067C769 /* RewardsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B24B8F822537F75B0067C769 /* RewardsAppTests.swift */,
+				B24B8F842537F75B0067C769 /* Info.plist */,
+			);
+			path = RewardsAppTests;
+			sourceTree = "<group>";
+		};
+		B24B8F8C2537F75B0067C769 /* RewardsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B24B8F8D2537F75B0067C769 /* RewardsAppUITests.swift */,
+				B24B8F8F2537F75B0067C769 /* Info.plist */,
+			);
+			path = RewardsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24B8F672537F7580067C769 /* RewardsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24B8F922537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsApp" */;
+			buildPhases = (
+				B24B8F642537F7580067C769 /* Sources */,
+				B24B8F652537F7580067C769 /* Frameworks */,
+				B24B8F662537F7580067C769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RewardsApp;
+			productName = RewardsApp;
+			productReference = B24B8F682537F7580067C769 /* RewardsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24B8F7D2537F75B0067C769 /* RewardsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24B8F952537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsAppTests" */;
+			buildPhases = (
+				B24B8F7A2537F75B0067C769 /* Sources */,
+				B24B8F7B2537F75B0067C769 /* Frameworks */,
+				B24B8F7C2537F75B0067C769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24B8F802537F75B0067C769 /* PBXTargetDependency */,
+			);
+			name = RewardsAppTests;
+			productName = RewardsAppTests;
+			productReference = B24B8F7E2537F75B0067C769 /* RewardsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24B8F882537F75B0067C769 /* RewardsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24B8F982537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsAppUITests" */;
+			buildPhases = (
+				B24B8F852537F75B0067C769 /* Sources */,
+				B24B8F862537F75B0067C769 /* Frameworks */,
+				B24B8F872537F75B0067C769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24B8F8B2537F75B0067C769 /* PBXTargetDependency */,
+			);
+			name = RewardsAppUITests;
+			productName = RewardsAppUITests;
+			productReference = B24B8F892537F75B0067C769 /* RewardsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24B8F602537F7580067C769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Deepansh Jagga";
+				TargetAttributes = {
+					B24B8F672537F7580067C769 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B24B8F7D2537F75B0067C769 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B24B8F672537F7580067C769;
+					};
+					B24B8F882537F75B0067C769 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B24B8F672537F7580067C769;
+					};
+				};
+			};
+			buildConfigurationList = B24B8F632537F7580067C769 /* Build configuration list for PBXProject "RewardsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24B8F5F2537F7580067C769;
+			productRefGroup = B24B8F692537F7580067C769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24B8F672537F7580067C769 /* RewardsApp */,
+				B24B8F7D2537F75B0067C769 /* RewardsAppTests */,
+				B24B8F882537F75B0067C769 /* RewardsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24B8F662537F7580067C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B8F782537F75A0067C769 /* LaunchScreen.storyboard in Resources */,
+				B24B8F752537F75A0067C769 /* Assets.xcassets in Resources */,
+				B24B8F732537F7580067C769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F7C2537F75B0067C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F872537F75B0067C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24B8F642537F7580067C769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B8F702537F7580067C769 /* ViewController.swift in Sources */,
+				B24B8F6C2537F7580067C769 /* AppDelegate.swift in Sources */,
+				B24B8F6E2537F7580067C769 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F7A2537F75B0067C769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B8F832537F75B0067C769 /* RewardsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B8F852537F75B0067C769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B8F8E2537F75B0067C769 /* RewardsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24B8F802537F75B0067C769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24B8F672537F7580067C769 /* RewardsApp */;
+			targetProxy = B24B8F7F2537F75B0067C769 /* PBXContainerItemProxy */;
+		};
+		B24B8F8B2537F75B0067C769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24B8F672537F7580067C769 /* RewardsApp */;
+			targetProxy = B24B8F8A2537F75B0067C769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B24B8F712537F7580067C769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24B8F722537F7580067C769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24B8F762537F75A0067C769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24B8F772537F75A0067C769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24B8F902537F75B0067C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B24B8F912537F75B0067C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24B8F932537F75B0067C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24B8F942537F75B0067C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B24B8F962537F75B0067C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RewardsApp.app/RewardsApp";
+			};
+			name = Debug;
+		};
+		B24B8F972537F75B0067C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RewardsApp.app/RewardsApp";
+			};
+			name = Release;
+		};
+		B24B8F992537F75B0067C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RewardsApp;
+			};
+			name = Debug;
+		};
+		B24B8F9A2537F75B0067C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74L3HS7;
+				INFOPLIST_FILE = RewardsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.rewards.RewardsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RewardsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24B8F632537F7580067C769 /* Build configuration list for PBXProject "RewardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B8F902537F75B0067C769 /* Debug */,
+				B24B8F912537F75B0067C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24B8F922537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B8F932537F75B0067C769 /* Debug */,
+				B24B8F942537F75B0067C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24B8F952537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B8F962537F75B0067C769 /* Debug */,
+				B24B8F972537F75B0067C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24B8F982537F75B0067C769 /* Build configuration list for PBXNativeTarget "RewardsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B8F992537F75B0067C769 /* Debug */,
+				B24B8F9A2537F75B0067C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24B8F602537F7580067C769 /* Project object */;
+}
